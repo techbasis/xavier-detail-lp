@@ -52,14 +52,14 @@ export function HeroSection() {
 
         {/* Heading */}
         <h1 className="mb-6 text-balance font-serif text-5xl font-bold leading-tight tracking-tight text-foreground md:text-7xl lg:text-8xl">
-          {"Perfeicao "}
+          {"Perfeição "}
           <span className="italic text-accent">em cada detalhe</span>
         </h1>
 
         {/* Subtitle */}
         <p className="mb-10 max-w-2xl text-pretty text-base text-muted-foreground md:text-lg">
-          Elevamos a estetica do seu veiculo a um novo patamar. PPF, polimento e
-          protecao ceramica com excelencia incomparavel.
+          Elevamos a estética do seu veículo a um novo patamar. PPF, polimento e
+          proteção cerâmica com excelência incomparável.
         </p>
 
         {/* CTAs */}
@@ -70,7 +70,7 @@ export function HeroSection() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-full bg-foreground px-8 py-3.5 text-sm font-medium text-background transition-all hover:opacity-90"
           >
-            Solicitar Orcamento <ArrowRight className="h-4 w-4" />
+            Solicitar Orçamento <ArrowRight className="h-4 w-4" />
           </a>
           <a
             href="#servicos"

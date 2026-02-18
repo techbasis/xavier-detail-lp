@@ -14,13 +14,13 @@ import {
 const info = [
   {
     icon: MapPin,
-    title: "Endereco",
+    title: "Endereço",
     lines: ["Rua Cosme de Farias N\u00b04", "Boca do Rio, Salvador \u2013 BA"],
   },
   {
     icon: Phone,
     title: "Telefone",
-    lines: ["WhatsApp disponivel"],
+    lines: ["WhatsApp disponível"],
   },
   {
     icon: Mail,
@@ -29,17 +29,17 @@ const info = [
   },
   {
     icon: Clock,
-    title: "Horario",
-    lines: ["Servico Agendado", "Entre em contato"],
+    title: "Horário",
+    lines: ["Serviço Agendado", "Entre em contato"],
   },
 ];
 
 const serviceOptions = [
   "Detalhamento Automotivo",
-  "Nano Revestimento Ceramico",
+  "Nano Revestimento Cerâmico",
   "PPF - Paint Protection Film",
   "Polimento",
-  "Higienizacao Interna",
+  "Higienização Interna",
   "Outro",
 ];
 
@@ -53,7 +53,7 @@ export function ContactSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const text = encodeURIComponent(
-      `Ola! Gostaria de solicitar um orcamento.\n\nNome: ${form.nome}\nServico: ${form.servico}\nMensagem: ${form.mensagem}`
+      `Olá! Gostaria de solicitar um orçamento.\n\nNome: ${form.nome}\nServiço: ${form.servico}\nMensagem: ${form.mensagem}`
     );
     window.open(`https://wa.me/message/R7VTVZENE3KFG1?text=${text}`, "_blank");
   };
@@ -81,7 +81,7 @@ export function ContactSection() {
           {/* Info Column */}
           <div>
             <h3 className="mb-8 font-serif text-2xl italic text-foreground">
-              Informacoes
+              Informações
             </h3>
             <div className="flex flex-col gap-6">
               {info.map((item) => {
@@ -141,10 +141,10 @@ export function ContactSection() {
             className="service-card-glow rounded-2xl border border-border/30 bg-card/50 p-8 backdrop-blur-sm md:p-10"
           >
             <h3 className="mb-2 font-serif text-2xl font-bold text-foreground">
-              Solicite um Orcamento
+              Solicite um Orçamento
             </h3>
             <p className="mb-8 text-sm text-muted-foreground">
-              Preencha o formulario abaixo e entraremos em contato em ate 24
+              Preencha o formulário abaixo e entraremos em contato em até 24
               horas.
             </p>
 
@@ -168,7 +168,7 @@ export function ContactSection() {
             {/* Servico */}
             <div className="mt-5 flex flex-col gap-2">
               <label className="text-xs font-semibold uppercase tracking-wider text-foreground/70">
-                Servico de Interesse
+                Serviço de Interesse
               </label>
               <select
                 required
@@ -179,7 +179,7 @@ export function ContactSection() {
                 className="rounded-xl border border-border/40 bg-background/30 px-5 py-3.5 text-sm text-foreground transition-all focus:border-foreground/30 focus:bg-background/50 focus:outline-none focus:ring-1 focus:ring-foreground/10 focus:shadow-[0_0_15px_rgba(255,255,255,0.05)]"
               >
                 <option value="" disabled>
-                  Selecione um servico
+                  Selecione um serviço
                 </option>
                 {serviceOptions.map((o) => (
                   <option key={o} value={o}>

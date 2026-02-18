@@ -48,11 +48,11 @@ export function VideoSection() {
           NOSSO TRABALHO
         </p>
         <h2 className="mb-4 text-center font-serif text-4xl font-bold text-foreground md:text-6xl">
-          APLICACAO
+          APLICAÇÃO
         </h2>
         <p className="mb-12 max-w-lg text-center text-sm text-muted-foreground">
-          Veja de perto o cuidado e a precisao que dedicamos a cada detalhe do
-          seu veiculo
+          Veja de perto o cuidado e a precisão que dedicamos a cada detalhe do
+          seu veículo
         </p>
 
         {/* Phone Mockup */}

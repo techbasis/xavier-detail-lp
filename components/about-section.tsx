@@ -5,21 +5,21 @@ import { Award, Users, Clock, Star } from "lucide-react";
 const features = [
   {
     icon: Award,
-    title: "Certificacao Internacional",
+    title: "Certificação Internacional",
     description:
-      "Tecnicos certificados pelas melhores marcas mundiais de PPF e ceramica.",
+      "Técnicos certificados pelas melhores marcas mundiais de PPF e cerâmica.",
   },
   {
     icon: Users,
     title: "Atendimento Exclusivo",
     description:
-      "Cada cliente recebe atencao personalizada do inicio ao fim do projeto.",
+      "Cada cliente recebe atenção personalizada do início ao fim do projeto.",
   },
   {
     icon: Clock,
     title: "Garantia Estendida",
     description:
-      "Oferecemos garantias de ate 10 anos em nossos servicos premium.",
+      "Oferecemos garantias de ate 10 anos em nossos serviços premium.",
   },
   {
     icon: Star,
@@ -31,8 +31,8 @@ const features = [
 
 const stats = [
   { value: "10+", label: "ANOS" },
-  { value: "500+", label: "VEICULOS" },
-  { value: "100%", label: "SATISFACAO" },
+  { value: "500+", label: "VEÍCULOS" },
+  { value: "100%", label: "SATISFAÇÃO" },
 ];
 
 export function AboutSection() {
@@ -54,17 +54,17 @@ export function AboutSection() {
               QUEM SOMOS
             </p>
             <h2 className="mb-6 font-serif text-4xl font-bold text-foreground md:text-5xl">
-              {"Paixao por "}
-              <span className="italic text-accent">excelencia</span>
+              {"Paixão por "}
+              <span className="italic text-accent">excelência</span>
             </h2>
             <p className="mb-4 leading-relaxed text-muted-foreground">
-              Ha mais de uma decada, a Xavier Detail se dedica a transformar
-              veiculos em verdadeiras obras de arte. Nossa equipe de
-              especialistas combina tecnicas tradicionais com as mais avancadas
+              Há mais de uma década, a Xavier Detail se dedica a transformar
+              veículos em verdadeiras obras de arte. Nossa equipe de
+              especialistas combina técnicas tradicionais com as mais avançadas
               tecnologias do mercado.
             </p>
             <p className="mb-8 leading-relaxed text-muted-foreground">
-              Cada projeto e tratado com o maximo cuidado e atencao aos
+              Cada projeto é tratado com o máximo cuidado e atenção aos
               detalhes, garantindo resultados que superam as expectativas dos
               nossos clientes mais exigentes.
             </p>

@@ -11,12 +11,12 @@ const services = [
     title: "PPF Protection",
     subtitle: "Paint Protection Film",
     description:
-      "Protecao invisivel de ultima geracao contra riscos, pedras e desgaste diario. Preserva a pintura original do seu veiculo.",
+      "Proteção invisível de última geração contra riscos, pedras e desgaste diário. Preserva a pintura original do seu veículo.",
     features: [
-      "Protecao contra riscos",
+      "Proteção contra riscos",
       "Garantia estendida",
-      "Auto-regeneracao",
-      "Instalacao profissional",
+      "Auto-regeneração",
+      "Instalação profissional",
     ],
     image: "/images/ppf-real.png",
   },
@@ -26,11 +26,11 @@ const services = [
     title: "Detalhamento",
     subtitle: "Automotivo",
     description:
-      "Limpeza profunda e cuidado completo com cada detalhe do seu veiculo. Restauramos a beleza interior e exterior.",
+      "Limpeza profunda e cuidado completo com cada detalhe do seu veículo. Restauramos a beleza interior e exterior.",
     features: [
       "Limpeza profunda",
       "Polimento premium",
-      "Higienizacao interna",
+      "Higienização interna",
       "Acabamento perfeito",
     ],
     image: "/images/detailing-real.png",
@@ -41,11 +41,11 @@ const services = [
     title: "Nano Ceramico",
     subtitle: "Revestimento",
     description:
-      "Nanotecnologia ceramica que proporciona hidrofobicidade extrema, brilho intenso e protecao duradoura.",
+      "Nanotecnologia cerâmica que proporciona hidrofobicidade extrema, brilho intenso e proteção duradoura.",
     features: [
       "Hidrofobicidade extrema",
       "Brilho intenso",
-      "Protecao UV",
+      "Proteção UV",
       "Durabilidade superior",
     ],
     image: "/images/hero-car.jpg",
@@ -70,10 +70,10 @@ export function ServicesSection() {
         {/* Header */}
         <div className="mb-16 text-center">
           <p className="mb-4 text-xs tracking-widest text-muted-foreground">
-            NOSSOS SERVICOS
+            NOSSOS SERVIÇOS
           </p>
           <h2 className="font-serif text-4xl font-bold text-foreground md:text-6xl">
-            {"Servicos "}
+            {"Serviços "}
             <span className="italic text-accent">Premium</span>
           </h2>
         </div>
@@ -92,7 +92,7 @@ export function ServicesSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6">
                 <p className="text-[10px] tracking-widest text-muted-foreground">
-                  SERVICO EM DESTAQUE
+                  SERVIÇO EM DESTAQUE
                 </p>
                 <p className="text-lg font-bold text-foreground">
                   {activeService.title}
