@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   title: "Xavier Detail | Estética Automotiva Premium",
   description:
     "Detalhamento automotivo, Nano Revestimento Cerâmico, PPF e muito mais. Elevamos a estética do seu veículo a um novo patamar.",
+  icons: "/images/logo-head.png",
 };
 
 export const viewport = {
