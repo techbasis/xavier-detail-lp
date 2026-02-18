@@ -116,7 +116,7 @@ export function ContactSection() {
               </p>
               <div className="flex gap-3">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/xavierdetail/"
                   className="flex h-10 w-10 items-center justify-center rounded-full bg-foreground text-background transition-opacity hover:opacity-80"
                   aria-label="Instagram"
                 >
