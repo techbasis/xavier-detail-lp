@@ -48,7 +48,7 @@ const services = [
       "Proteção UV",
       "Durabilidade superior",
     ],
-    image: "/images/hero-car.jpg",
+    image: "/images/ceramic.jpg",
   },
 ];
 
