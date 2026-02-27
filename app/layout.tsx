@@ -32,6 +32,7 @@ export default function RootLayout({
     <html lang="pt-BR" className={`${_inter.variable} ${_playfair.variable}`}>
       <head>
         {/* Meta Pixel Code */}
+        <meta name="facebook-domain-verification" content="leqs6e7l3h8ve3fvln6id8r58m9i86" />
         <script dangerouslySetInnerHTML={{ __html: `!function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
